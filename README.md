@@ -1,10 +1,10 @@
 # 🌍 AI Market-Entry & Systems Thinking Framework
 
-Early-stage startups often fail globally because they ignore the macro environment. This framework provides a systems-thinking approach to AI SaaS pricing and infrastructure viability.
+Early-stage startups often fail globally because they ignore the "Macro" environment. This framework provides a systems-thinking approach to AI SaaS pricing and infrastructure viability.
 
 ---
 
-## 1. The Global AI Margin System
+## 📊 1. The Global AI Margin System
 This diagram shows how external economic factors impact AI unit economics.
 
 ```mermaid
