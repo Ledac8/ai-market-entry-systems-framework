@@ -9,6 +9,8 @@ This diagram shows how external economic factors impact AI unit economics.
 
 ```mermaid
 graph TD
+
+graph TD
     A[Macro Environment] --> B(Purchasing Power Parity - PPP)
     A --> C(Local Cloud Infrastructure)
     B --> D{Optimal Price Point}
