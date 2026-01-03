@@ -17,3 +17,19 @@ graph TD
     E --> F
     G[Local Talent Costs] --> F
     H[Currency Volatility] --> D
+
+2. PPP Pricing Strategy (Example)To maintain a consistent "perceived value," pricing must be localized. Selling an AI seat for $30 in the USA is equivalent to:RegionPPP Adjusted PriceLogicUnited States$30.00BaselineIndia$7.504x lower cost of living / median wageBrazil$12.00Mid-tier emerging market adjustment
+
+3. The "Token-Cost" Viability Gap
+The Problem: While revenue is localized via PPP, AI API costs (OpenAI, Anthropic) are usually fixed in USD.
+
+The System Risk: If your infrastructure cost is $2.00 per user and your adjusted price in a low-income market is $3.00, your gross margin is only 33%.
+
+The Strategy: In low-PPP markets, we must deploy "Lighter" models (e.g., GPT-4o-mini instead of o1) to protect margins.
+
+How to use this Framework
+Identify Target Region: Check the World Bank PPP Index.
+
+Audit Infrastructure: Will local latency require higher-cost regional servers?
+
+Set Tiers: Use the AI Launch Tiering Engine to decide the rollout scale.
